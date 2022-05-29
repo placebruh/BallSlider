@@ -12,7 +12,7 @@ public class CamFollow : MonoBehaviour
     {
         tempVec3.x = targetTransform.position.x;
         tempVec3.y = targetTransform1.position.y;
-        tempVec3.z = targetTransform2.position.z;
+        tempVec3.z = targetTransform2.position.z - 13;
 
         this.transform.position = tempVec3;
     }
