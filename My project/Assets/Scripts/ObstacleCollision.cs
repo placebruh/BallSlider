@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndLevel : MonoBehaviour
+public class ObstacleCollision : MonoBehaviour
 {
-    public GameObject panel;
+    public GameObject canvas;
    // public GameObject player;
 
     void Start()
     {
         //player.GetComponent<Rigidbody> rb;
-        panel.SetActive(false);
+        canvas.SetActive(false);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
        
-        panel.SetActive(true);
+        canvas.SetActive(true);
         //Time.timeScale = 0.;
             
         

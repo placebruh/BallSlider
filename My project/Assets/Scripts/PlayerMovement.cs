@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
     
-    public float speed;
-    public float worldSpeed;
+    public float leftRightSpeed;
+    public float playerSpeed;
 
     void Start()
     {
@@ -23,14 +23,14 @@ public class PlayerMovement : MonoBehaviour
         Vector3 pos = rb.position;
         if (pos.x < -3)
         {
-            rb.velocity = Vector3.right * speed;
+            rb.velocity = Vector3.right * leftRightSpeed;
             Debug.Log("Idem u desno");
 
         }
 
         else if (pos.x > 3)
         {
-            rb.velocity = -Vector3.right * speed;
+            rb.velocity = -Vector3.right * leftRightSpeed;
             Debug.Log("Idem u levo");
 
         }
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         MoveBall();
         if (Input.GetMouseButton(0))
         {
-            rb.AddForce(Vector3.forward * worldSpeed);
+            rb.AddForce(Vector3.forward * playerSpeed);
         }
         else
         {

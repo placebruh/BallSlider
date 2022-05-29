@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 807646818}
+  canvas: {fileID: 807646818}
 --- !u!1 &177527537 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2284567285436739523, guid: 815655d55489601498321046023aa31a, type: 3}
@@ -689,6 +689,14 @@ PrefabInstance:
     - target: {fileID: 5229153590867785421, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
       propertyPath: worldSpeed
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229153590867785421, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
+      propertyPath: playerSpeed
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229153590867785421, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
+      propertyPath: leftRightSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5229153590867785422, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
       propertyPath: m_RootOrder

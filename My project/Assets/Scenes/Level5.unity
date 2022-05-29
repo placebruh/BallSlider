@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 544679560}
+  canvas: {fileID: 544679560}
 --- !u!4 &486591208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4405256464578625454, guid: 30ec3b493a35b654f82354cdc7eb1de8, type: 3}
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 544679560}
+  canvas: {fileID: 544679560}
 --- !u!4 &884245835 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4405256464578625454, guid: 30ec3b493a35b654f82354cdc7eb1de8, type: 3}
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 544679560}
+  canvas: {fileID: 544679560}
 --- !u!4 &1327196878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4405256464578625454, guid: 30ec3b493a35b654f82354cdc7eb1de8, type: 3}

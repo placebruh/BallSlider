@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 5229153590867785418}
-  speed: 10
-  worldSpeed: 70
+  leftRightSpeed: 10
+  playerSpeed: 70
 --- !u!135 &5229153590867785417
 SphereCollider:
   m_ObjectHideFlags: 0

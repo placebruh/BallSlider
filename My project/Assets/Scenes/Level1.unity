@@ -539,6 +539,14 @@ PrefabInstance:
       propertyPath: worldSpeed
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 5229153590867785421, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
+      propertyPath: playerSpeed
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229153590867785421, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
+      propertyPath: leftRightSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5229153590867785422, guid: 9f30bb34b98cf624d927494449c42516, type: 3}
       propertyPath: m_RootOrder
       value: 1

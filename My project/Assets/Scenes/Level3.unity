@@ -921,7 +921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1413773326}
+  canvas: {fileID: 1413773326}
 --- !u!1 &1613084073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 75993683182303096, guid: c46f015fae4063b48ae657e382adfd26, type: 3}
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1413773326}
+  canvas: {fileID: 1413773326}
 --- !u!1 &1696349131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c5d891037b354fbd0f2226f18c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1413773326}
+  canvas: {fileID: 1413773326}
 --- !u!1001 &6173714896809696468
 PrefabInstance:
   m_ObjectHideFlags: 0
