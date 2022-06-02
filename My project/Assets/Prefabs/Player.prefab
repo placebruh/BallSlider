@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 5229153590867785418}
-  leftRightSpeed: 4
-  playerSpeed: 8
+  leftRightSpeed: 10
+  playerSpeed: 30
 --- !u!135 &5229153590867785417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -247,6 +247,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5229153590867785422}
     m_Modifications:
+    - target: {fileID: -2058704345243619645, guid: 3704eaa8eb36a8c4f8c3ae269f86ab95, type: 3}
+      propertyPath: targetTransform
+      value: 
+      objectReference: {fileID: 5229153590867785422}
     - target: {fileID: -2058704345243619645, guid: 3704eaa8eb36a8c4f8c3ae269f86ab95, type: 3}
       propertyPath: targetTransform2
       value: 

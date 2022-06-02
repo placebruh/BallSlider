@@ -52,5 +52,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity =  new Vector3(rb.velocity.x, rb.velocity.y, 0);//-Vector3.right * leftRightSpeed;    
         }
+
+
     }
+ //   private void Update()
+   // {
+  //      transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, -500, 5),transform.position.z);
+ //   }
 }
