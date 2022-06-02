@@ -6,10 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
     
-    public float leftRightSpeed;
+    public float leftRightSpeed = 5;
     public float playerSpeed;
 
-    public Vector3 toAdd;
+    Vector3 toAdd;
 
     void Start()
     {
@@ -46,12 +46,11 @@ public class PlayerMovement : MonoBehaviour
         MoveBall();
         if (Input.GetMouseButton(0))
         {
-            rb.AddForce(Vector3.forward * playerSpeed);
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, playerSpeed);
         }
         else
         {
-            rb.velocity =  new Vector3(rb.velocity.x, rb.velocity.y, 0);//-Vector3.right * leftRightSpeed;
-            MoveBall();       
+            rb.velocity =  new Vector3(rb.velocity.x, rb.velocity.y, 0);//-Vector3.right * leftRightSpeed;    
         }
     }
 }

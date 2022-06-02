@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5229153590867785418}
   - component: {fileID: 5536093781854797501}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,7 +103,6 @@ MonoBehaviour:
   rb: {fileID: 5229153590867785418}
   leftRightSpeed: 4
   playerSpeed: 8
-  toAdd: {x: 0, y: 0, z: 0}
 --- !u!135 &5229153590867785417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -318,26 +317,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3704eaa8eb36a8c4f8c3ae269f86ab95, type: 3}
---- !u!1 &5229153591306425962 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6894044865912657468, guid: 3704eaa8eb36a8c4f8c3ae269f86ab95, type: 3}
-  m_PrefabInstance: {fileID: 1674563063595090006}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6894044866867460943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5229153591306425962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb44c09673de0964883d225614769790, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 0}
-  targetTransform1: {fileID: 0}
-  targetTransform2: {fileID: 5229153590867785422}
 --- !u!4 &5229153591306425967 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6894044865912657465, guid: 3704eaa8eb36a8c4f8c3ae269f86ab95, type: 3}
